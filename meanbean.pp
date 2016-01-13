@@ -7,6 +7,10 @@ package { 'geforce-game-ready-driver':
   ensure   => 'latest',
   provider => 'chocolatey',
 }
+package { 'cygwin':
+  ensure   => 'latest',
+  provider => 'chocolatey',
+}
 package { 'steam':
   ensure   => 'latest',
   provider => 'chocolatey',
